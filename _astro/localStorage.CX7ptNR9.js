@@ -1,0 +1,1 @@
+var e;typeof window<`u`&&`localStorage`in window&&window.localStorage&&(e=window.localStorage);var t=t=>e?e.getItem(t):null,n=(t,n)=>new Promise(r=>{if(!e){r();return}n&&typeof n==`object`&&(n=JSON.stringify(n)),setTimeout(()=>{try{e.setItem(t,n)}catch{}r()},0)});export{n,t};

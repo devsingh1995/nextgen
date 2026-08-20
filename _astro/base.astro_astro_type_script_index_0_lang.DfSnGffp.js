@@ -1,0 +1,1 @@
+import{n as e}from"./localStorage.CX7ptNR9.js";document.addEventListener(`astro:page-load`,()=>{let t=document.documentElement.lang;t&&e(`locale`,t)});
